@@ -52,26 +52,6 @@ public class newCeaserCipherDriver
 			System.out.println("Decrypted Text: " + message); // Print Results
 		break;
 		
-		case "frequency analysis":
-		case "frequency":
-		case "f":
-		case "analysis":
-		case "fa":
-			ArrayList<String> ftext = new ArrayList<String>(); // Create Ciphertext Array
-			System.out.println("Please note that this feature is nowhere near perfect. It is an attempt at most.");
-			System.out.println("Enter CIPHERtext (Click Enter again to Finish): "); // Print Instructions
-			Scanner fwordScan = new Scanner(System.in);
-			String fword = fwordScan.nextLine(); // Get next line
-			while (!fword.equals(""))
-			{	// While the user inputs data
-				ftext.add(fword); // Add the line to the text ArrayList
-				fword = fwordScan.nextLine(); // Get another line of data
-			}
-			FrequencyAnalysis fFile = new FrequencyAnalysis();
-			fFile.setEncodedText(ftext);
-			System.out.println(fFile.decode());
-		break;
-		
 		}
 	}
 
