@@ -2,6 +2,7 @@ Repository for Daniel Matisoff's resume
 
 As of January 2024, only includes Java Programs and Required Files.
 
+"ZoomSMSScripts" was created in July 2024.
 
 "Anagram Project" was created in December 2024
 
