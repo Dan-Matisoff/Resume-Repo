@@ -35,7 +35,7 @@ class MyApp extends StatelessWidget {
 class MyAppState extends ChangeNotifier {
   // Storage of Global Variables
   /// Character Name
-  var charName = 'Chad Wonderwall';
+  var charName = 'Stephen Swordslash';
   /// The number of total Health Points.
   var hp = 0;
   /// The number of temporary Health Points.
