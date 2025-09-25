@@ -13,3 +13,5 @@ As of January 2024, only includes Java Programs and Required Files.
 "Sieve of Eratosthenes" was created circa 2021
 
 "Pizza Order" was created circa 2022. Programs made by me are "PizzaOrderDriver" and "PizzaOrderPane"
+
+Research Paper - Written May 6th, 2023
